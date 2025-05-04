@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 3rem 2fr 8fr 1fr;
+  grid-template-rows: 4rem 1fr;
+}
+
+nav {
+  background-color: lightblue;
+  grid-row: 1/3;
+}
+
+.action-buttons {
+  background-color: bisque;
+  grid-column: 2/-1;
+}
+
+.emails {
+  background-color: lightgreen;
+}
+
+.email-view {
+  background-color: lightpink;
+}
+
+.sidebar {
+  background-color: lightgrey;
+}
