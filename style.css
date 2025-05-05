@@ -12,7 +12,7 @@ body {
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 80px 400px 4fr 1.5fr;
+  grid-template-columns: 80px 400px 4fr 1fr;
   grid-template-rows: 5rem 1fr;
 }
 
@@ -93,6 +93,6 @@ nav {
   color: #fff;
   text-decoration: none;
   display: inline-block;
-  padding: 8px;
+  padding: 8px 10px;
   margin-left: auto;
 }
