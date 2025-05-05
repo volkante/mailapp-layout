@@ -76,13 +76,13 @@ nav {
   padding: 40px;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 30px;
 }
 
 .email-item {
   font-size: 24px;
   font-weight: 600;
-  padding: 40px 80px;
+  padding: 36px 72px;
   background-color: #acb5bd;
   display: grid;
   place-content: center;
