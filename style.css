@@ -6,12 +6,13 @@
 
 body {
   font-family: "Inter", sans-serif;
+  overflow: hidden;
 }
 
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 5rem 16rem 4fr 1fr;
+  grid-template-columns: 80px 400px 4fr 1.5fr;
   grid-template-rows: 5rem 1fr;
 }
 
@@ -31,25 +32,34 @@ nav {
   background-color: #7048e8;
   grid-column: 2/-1;
   font-size: 16px;
-  font-weight: 600px;
-  padding-left: 24px;
-  padding-right: 24px;
-  gap: 8px;
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+  gap: 12px;
 }
 
 .emails-section {
   background-color: #eaecef;
   color: #212529;
+  overflow: scroll;
 }
 
 .displayed-email {
   background-color: #ffffff;
   color: #212529;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 24px;
 }
 
 .sidebar {
   background-color: #eaecef;
   color: #212529;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 24px;
 }
 
 .btn {
@@ -59,11 +69,23 @@ nav {
   font-size: inherit;
   font-weight: inherit;
   cursor: pointer;
-  padding: 6px;
+  padding: 6px 8px;
+}
+
+.emails-section {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 
 .email-item {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 40px 80px;
   background-color: #acb5bd;
+  display: grid;
+  place-content: center;
 }
 
 .trash-link {
