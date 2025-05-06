@@ -13,7 +13,7 @@ body {
   height: 100vh;
   display: grid;
   grid-template-columns: 80px 400px 4fr 1fr;
-  grid-template-rows: 5rem 1fr;
+  grid-template-rows: 80px 1fr;
 }
 
 nav {
@@ -69,7 +69,10 @@ nav {
   font-size: inherit;
   font-weight: inherit;
   cursor: pointer;
-  padding: 6px 8px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
 }
 
 .emails-section {
