@@ -38,6 +38,29 @@ nav {
   gap: 12px;
 }
 
+.btn {
+  background-color: #5f3cc4;
+  color: #fff;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  border: none;
+  cursor: pointer;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.trash-link {
+  background-color: #d6336c;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 10px;
+  margin-left: auto;
+}
+
 .inbox {
   background-color: #eaecef;
   color: #212529;
@@ -46,6 +69,15 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 30px;
+}
+
+.email-item {
+  font-size: 24px;
+  font-weight: 600;
+  padding: 36px 72px;
+  background-color: #acb5bd;
+  display: grid;
+  place-content: center;
 }
 
 main {
@@ -64,35 +96,4 @@ aside {
   font-weight: 600;
   text-align: center;
   padding-top: 24px;
-}
-
-.btn {
-  background-color: #5f3cc4;
-  color: #fff;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: inherit;
-  cursor: pointer;
-  padding-top: 6px;
-  padding-bottom: 6px;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-
-.email-item {
-  font-size: 24px;
-  font-weight: 600;
-  padding: 36px 72px;
-  background-color: #acb5bd;
-  display: grid;
-  place-content: center;
-}
-
-.trash-link {
-  background-color: #d6336c;
-  color: #fff;
-  text-decoration: none;
-  display: inline-block;
-  padding: 8px 10px;
-  margin-left: auto;
 }
