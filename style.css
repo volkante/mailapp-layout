@@ -12,7 +12,7 @@ body {
 .container {
   height: 100vh;
   display: grid;
-  grid-template-columns: 80px 400px 4fr 1fr;
+  grid-template-columns: 80px 400px 1fr 200px;
   grid-template-rows: 80px 1fr;
 }
 
@@ -38,13 +38,17 @@ nav {
   gap: 12px;
 }
 
-.emails-section {
+.inbox {
   background-color: #eaecef;
   color: #212529;
   overflow: scroll;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
-.displayed-email {
+main {
   background-color: #ffffff;
   color: #212529;
   font-size: 24px;
@@ -53,7 +57,7 @@ nav {
   padding-top: 24px;
 }
 
-.sidebar {
+aside {
   background-color: #eaecef;
   color: #212529;
   font-size: 24px;
@@ -73,13 +77,6 @@ nav {
   padding-bottom: 6px;
   padding-left: 8px;
   padding-right: 8px;
-}
-
-.emails-section {
-  padding: 40px;
-  display: flex;
-  flex-direction: column;
-  gap: 30px;
 }
 
 .email-item {
