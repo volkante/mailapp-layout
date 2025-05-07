@@ -38,7 +38,7 @@ nav {
   gap: 12px;
 }
 
-.btn {
+.action-buttons-menu > button {
   background-color: #5f3cc4;
   color: #fff;
   font-family: inherit;
@@ -52,7 +52,7 @@ nav {
   padding-right: 8px;
 }
 
-.trash-link {
+.action-buttons-menu > .trash-link {
   background-color: #d6336c;
   color: #fff;
   text-decoration: none;
@@ -71,7 +71,7 @@ nav {
   gap: 30px;
 }
 
-.email-item {
+.inbox > .email-item {
   font-size: 24px;
   font-weight: 600;
   padding: 36px 72px;
